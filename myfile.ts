@@ -1,11 +1,11 @@
 let firstname : string = "Taqi"
 let secondname : string = "Raza"
-let age : number = 32
+let age : number = 31
 let isMarried : boolean = false;
 
 if(age>=35){
     console.log(firstname + " " + secondname + " is Matured")
-}else if(age<=34 && age>=22){
+}else if(age<=34  && age!<=22){
     console.log(firstname + " " + secondname + " is Energatic")
 }else{
     console.log(firstname + " " + secondname + " is too Young")

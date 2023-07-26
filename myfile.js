@@ -1,12 +1,12 @@
 "use strict";
 let firstname = "Taqi";
 let secondname = "Raza";
-let age = 32;
+let age = 31;
 let isMarried = false;
 if (age >= 35) {
     console.log(firstname + " " + secondname + " is Matured");
 }
-else if (age <= 34 && age >= 22) {
+else if (age <= 34 && age <= 22) {
     console.log(firstname + " " + secondname + " is Energatic");
 }
 else {
