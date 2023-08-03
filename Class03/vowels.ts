@@ -23,23 +23,23 @@ if(vowelss3.includes(alpha3.toLocaleLowerCase())){
 }
 
 
-import * as readline from 'readline';
+// import * as readline from 'readline';
 
-const vowelss4: string[] = ["a", "e", "i", "o", "u"];
+// const vowelss4: string[] = ["a", "e", "i", "o", "u"];
 
-const rl = readline.createInterface({
-  input: process.stdin,
-  output: process.stdout,
-});
+// const rl = readline.createInterface({
+//   input: process.stdin,
+//   output: process.stdout,
+// });
 
-rl.question("Enter a character: ", (abc:any) => {
-  if (vowelss4.includes(abc.toLowerCase())) {
-    console.log("Value of Alpha4 is a vowel");
-  } else {
-    console.log("Value of Alpha4 is not a vowel");
-  }
+// rl.question("Enter a character: ", (abc:any) => {
+//   if (vowelss4.includes(abc.toLowerCase())) {
+//     console.log("Value of Alpha4 is a vowel");
+//   } else {
+//     console.log("Value of Alpha4 is not a vowel");
+//   }
 
-  rl.close();
-});
+//   rl.close();
+// });
 
 export{}

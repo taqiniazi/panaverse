@@ -26,18 +26,3 @@ if (vowelss3.includes(alpha3.toLocaleLowerCase())) {
 else {
     console.log("Value of Alpha3 is not Vowel");
 }
-var readline = require("readline");
-var vowelss4 = ["a", "e", "i", "o", "u"];
-var rl = readline.createInterface({
-    input: process.stdin,
-    output: process.stdout,
-});
-rl.question("Enter a character: ", function (abc) {
-    if (vowelss4.includes(abc.toLowerCase())) {
-        console.log("Value of Alpha3 is a vowel");
-    }
-    else {
-        console.log("Value of Alpha3 is not a vowel");
-    }
-    rl.close();
-});
