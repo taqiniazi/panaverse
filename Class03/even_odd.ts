@@ -4,6 +4,4 @@ if (num%2 === 0){
 }else{
     console.log(`Value of num is ${num} and this is Odd Number`)
 }
-
-
 export{}
